@@ -140,7 +140,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.E(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**LVYOU CYNKKK**")
+    await typew.edit("**LVYOU KAMUUU🖤**")
 
 
 CMD_HELP.update({
