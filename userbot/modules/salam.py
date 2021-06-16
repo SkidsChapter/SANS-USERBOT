@@ -167,10 +167,28 @@ async def typewriter(typew):
     await typew.edit("**YAHAHA,YAUDA IYAIN AJA BUAT LOE MAH BWANG JAGO.**")
 
 
+@register(outgoing=True, pattern='^D(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**CUIH,NORAKK BGT YA SI ANAK ANJING SATU INI!!!**")
+
+
 @register(outgoing=True, pattern='^.J(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BISMILLAH MULU ANAK ANJING,YAUDAIYA AMININ AJA BIAR SENENG SI KONTOL**")
+
+
+@register(outgoing=True, pattern='^E(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**LIHATLAH,SIKONTOL SEDANG MELAWAKKK...**")
+
+
+@register(outgoing=True, pattern='^F(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**TOBAT BANG TOBAT ANJING,HIDUP LU SANGE ONLINE MULU ANJING!!!**")
 
 
 CMD_HELP.update({
