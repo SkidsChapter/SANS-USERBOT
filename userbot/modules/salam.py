@@ -167,7 +167,7 @@ async def typewriter(typew):
     await typew.edit("**YAHAHA,YAUDA IYAIN AJA BUAT LOE MAH BWANG JAGO.**")
 
 
-@register(outgoing=True, pattern='^.E(?: |$)(.*)')
+@register(outgoing=True, pattern='^.J(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BISMILLAH MULU ANAK ANJING,YAUDAIYA AMININ AJA BIAR SENENG SI KONTOL**")
