@@ -12,10 +12,10 @@ async def typewriter(typew):
     await typew.edit("𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦...")
 
 
-@register(outgoing=True, pattern='^.atg(?: |$)(.*)')
+@register(outgoing=True, pattern='^.A(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇.... 𝐆𝐎𝐁𝐋𝐎𝐊𝐊𝐊𝐊𝐊!!!!")
+    await typew.edit("Misi ka salam kenal,ku dika dari jakarta ,umur gaada yang tau ka.***")
 
 
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
@@ -33,7 +33,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^K(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐍𝐆𝐎𝐍𝐓𝐎𝐋𝐋𝐋𝐋𝐋𝐋**")
+    await typew.edit("KA SEDIH DEH KU DIPEHAPEIN DIA KA!!!****")
 
 
 @register(outgoing=True, pattern='^N(?: |$)(.*)')
@@ -57,7 +57,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^Y(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**YAUDAH IYAAAAAA ASU**")
+    await typew.edit("**YAUDAH IYAAAAAA BANG IYA,GALAK BENER KONTOL!!**")
 
 
 @register(outgoing=True, pattern='^C(?: |$)(.*)')
@@ -93,7 +93,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^X(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GC SAMPAH, CUIHHHHH!!!!!!!!!!!**")
+    await typew.edit("*𝐒𝐄𝐏𝐈 𝐀𝐌𝐀𝐓 𝐆𝐑𝐔𝐏𝐍𝐘𝐀?𝐁𝐀𝐊𝐀𝐑 𝐀𝐉𝐀 𝐈𝐍𝐈 𝐆𝐑𝐔𝐏 𝐊𝐎𝐍𝐓𝐎𝐋 𝐁𝐈𝐀𝐑 𝐑𝐀𝐌𝐄!!!***")
 
 
 @register(outgoing=True, pattern='^Z(?: |$)(.*)')
@@ -118,6 +118,18 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Gak keren lu begitu tolol, kuburan bapak lu gw gali buat dijadiin kolam renang anak paud.Cuihhhhh!!!**")
+
+@register(outgoing=True, pattern='^.B(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("ADA YANG SAYANG AKU GA KA?")
+
+
+@register(outgoing=True, pattern='^.c(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("YAMETE KUDASAI...AH***")
+
 
 CMD_HELP.update({
     "salam":
