@@ -93,7 +93,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^X(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐒𝐄𝐏𝐈 𝐀𝐌𝐀𝐓 𝐆𝐑𝐔𝐏𝐍𝐘𝐀?𝐁𝐀𝐊𝐀𝐑 𝐀𝐉𝐀 𝐈𝐍𝐈 𝐆𝐑𝐔𝐏 𝐊𝐎𝐍𝐓𝐎𝐋 𝐁𝐈𝐀𝐑 𝐑𝐀𝐌𝐄!!!!")
+    await typew.edit("**SEPI AMAT GRUPNYA,MENDING GRUP SEPI GINJ DIBUBARIN AJA GBLK GAGUNA!!!!**")
 
 
 @register(outgoing=True, pattern='^Z(?: |$)(.*)')
@@ -152,19 +152,19 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.G(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝗬𝗔𝗛𝗔𝗛𝗔𝗛𝗔,𝗔𝗗𝗔 𝗪𝗜𝗕𝗨𝗨 𝗞𝗢𝗡𝗧𝗢𝗟!!!**")
+    await typew.edit("**𝗬𝗔𝗛𝗔𝗛𝗔𝗛𝗔,ADA WIBU BAU BAWANGGG!!!**")
 
 
 @register(outgoing=True, pattern='^.H(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝗦𝗟𝗜𝗣𝗞𝗢𝗟 𝗠𝗨𝗟𝗨,𝗣𝗘𝗡𝗚𝗔𝗡𝗚𝗚𝗨𝗥𝗔𝗡 𝗬𝗔 𝗕𝗔𝗡𝗚? 𝗬𝗔𝗛𝗔𝗛𝗔**")
+    await typew.edit("**NYARI SLIPKOLAN MULU,GALAKU YA BANG?𝗬𝗔𝗛𝗔𝗛𝗔**")
 
 
 @register(outgoing=True, pattern='^.I(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**YAHAHA,YAUDA IYAIN AJA BUAT LOE MAH BWANG JAGO.**")
+    await typew.edit("**YAHAHA,YAUDA IYAIN AJA BUAT LOE MAH!!!**")
 
 
 @register(outgoing=True, pattern='^D(?: |$)(.*)')
@@ -194,7 +194,25 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^Q(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**TMO MULU SIKONTOL,GALAKU YA LU?YAHAHA**")
+    await typew.edit("**TMO MULU SIKONTOL,DIPILIH JUGA KAGA LU IKUT GITUAN!!**")
+
+
+@register(outgoing=True, pattern='^R(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**ADA GERANGAN APA SIKAWAN?KUSUT BGT TUH MUKA LU...**")
+
+
+@register(outgoing=True, pattern='^U(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**HEY,CAPEK YA?ISTIRAHAT KONTOL!!!**")
+
+
+@register(outgoing=True, pattern='^T(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**HEY,IMISSYOU CANTIK☺️**")
 
 
 CMD_HELP.update({
