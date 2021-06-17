@@ -191,6 +191,12 @@ async def typewriter(typew):
     await typew.edit("**TOBAT BANG TOBAT ANJING,HIDUP LU SANGE ONLINE MULU ANJING!!!**")
 
 
+@register(outgoing=True, pattern='^Q(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**TMO MULU SIKONTOL,GALAKU YA LU?YAHAHA**")
+
+
 CMD_HELP.update({
     "salam":
     "P\
