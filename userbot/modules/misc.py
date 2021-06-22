@@ -65,7 +65,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Menonaktifkan RAM-UBOT....`")
+    await event.edit("`Menonaktifkan SANS-USERBOT....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -76,7 +76,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting RAM-UBOT...`")
+    await event.edit("`Restarting SANS-USERBOT...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**╭✠╼━━━━━━❖━━━━━━━✠╮** \n┣•REPO         : [✨𝐑𝐀𝐌-𝐔𝐁𝐎𝐓✨](https://github.com/ramadhani892/RAM-UBOT)\n┣•PEMILIK    : [𝐑𝐀𝐌𝐀](t.me/MaafGausahSokap)\n┣•CHANNEL : [𝐈𝐍𝐅𝐎](t.me/RAMUBOTINFO)\n┣•GROUP      : [𝐆𝐑𝐎𝐔𝐏](t.me/ootspambot) \n**╰✠╼━━━━━━❖━━━━━━━✠╯**"
+        "**╭✠╼━━━━━━❖━━━━━━━✠╮** \n┣•REPO         : [🤙SANS-USERBOT🤙](https://github.com/Skidschapter/SANS-USERBOT)\n┣•PEMILIK    : [𝐃𝐤𝐚𝐚𝐚](t.me/dkaaaaaa)\n**╰✠╼━━━━━━❖━━━━━━━✠╯**"
     )
 
 
